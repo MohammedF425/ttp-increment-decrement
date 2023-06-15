@@ -36,7 +36,7 @@ class IncrementDecrement extends Component {
     render(){
         return(
             <div>
-                <h1>Counter</h1>
+                <h1 className="counter-header">Counter</h1>
                 <h3>{this.state.number}</h3>
 
                 <button className='Increment button' onClick={this.increment}>+</button>

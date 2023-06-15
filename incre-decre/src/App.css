@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: rgba(160, 135, 45, 0.612);
+  position: relative;
+  bottom: 1.4rem;
+  padding: 2rem;
+  height: 100vh;
 }
 
 .App-logo {
@@ -46,4 +51,13 @@
   font-size: 24px;
   font-weight: bold;
   margin: 24px;
+}
+
+.counter-header{
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+h3{
+  font-size: 1.5rem;
 }
